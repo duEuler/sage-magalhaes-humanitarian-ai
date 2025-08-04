@@ -1,0 +1,24 @@
+{
+  "report_generated_at": "2025-08-04T00:39:16.338846",
+  "total_files_processed": 1,
+  "total_messages_across_all": 114,
+  "total_ia_messages": 57,
+  "total_user_messages": 57,
+  "total_words_ia": 14954,
+  "total_words_user": 1850,
+  "files": [
+    {
+      "filename": "1 - nascimento_conversa.json",
+      "source_file": "backup\\1 - nascimento.txt",
+      "total_messages": 114,
+      "ia_messages": 57,
+      "user_messages": 57,
+      "total_words_ia": 14954,
+      "total_words_user": 1850,
+      "avg_words_ia": 262.35,
+      "avg_words_user": 32.46
+    }
+  ],
+  "avg_words_ia_overall": 262.35087719298247,
+  "avg_words_user_overall": 32.45614035087719
+}
