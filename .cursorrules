@@ -1,0 +1,52 @@
+# Cursor Rules - Sage duEuler
+# Regras para automatização de desenvolvimento
+
+## Comandos Git Automatizados
+
+Quando o usuário digitar "pull" ou "push" no chat:
+1. Execute automaticamente o comando git correspondente
+2. Para "pull": git pull origin main
+3. Para "push": execute o script git_helper.py com push rápido
+4. Sempre confirme a execução antes de fazer push
+
+## Regras de Commit
+
+- Sempre use emojis nas mensagens de commit
+- Padrão: [emoji] descrição da mudança
+- Tipos sugeridos:
+  - 📝 Documentação
+  - 🐛 Correção de bug
+  - ✨ Nova funcionalidade
+  - 🚀 Melhoria de performance
+  - 📚 Adicionando arquivos
+
+## Automação de Push
+
+Após modificações significativas:
+1. Pergunte se o usuário deseja fazer push
+2. Se sim, execute: python tools/git_helper.py push
+3. Se não, salve localmente
+
+## Comandos Rápidos
+
+- "pull" → git pull origin main
+- "push" → python tools/git_helper.py push
+- "status" → python tools/git_helper.py status
+- "commit" → python tools/git_helper.py
+
+## Estrutura do Projeto
+
+Mantenha a organização:
+- tools/ - Scripts e utilitários
+- docs/ - Documentação
+- datasets/ - Dados e conversas
+- assets/ - Recursos visuais
+- integrations/ - Integrações
+
+## Padrões de Código
+
+- Use Python 3.8+
+- UTF-8 encoding
+- Docstrings em português
+- Comentários explicativos
+- Tratamento de erros 

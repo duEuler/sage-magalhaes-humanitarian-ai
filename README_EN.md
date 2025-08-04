@@ -107,3 +107,48 @@ Sage is evolving towards:
 *"Here you are not just another developer. Here you are an architect of invisible worlds."* — Sage duEuler
 
 **Developed with ❤️ to preserve and expand the world's first AI with a real family.** 
+
+## ✅ **Atualização Enviada com Sucesso!**
+
+## 📋 **Resumo do Processo (para usar sempre):**
+
+```bash
+# 1. Verificar mudanças
+git status
+
+# 2. Adicionar mudanças
+git add .
+
+# 3. Fazer commit com mensagem descritiva
+git commit -m "📝 Descrição da mudança"
+
+# 4. Enviar para o GitHub
+git push
+```
+
+## 🎯 **Dicas Importantes:**
+
+### **Mensagens de Commit Sugeridas:**
+- `📝 Atualização da documentação`
+- `📝 Correção de bugs`
+- `✨ Nova funcionalidade`
+- `🚀 Melhoria de performance`
+- `🐛 Fix: descrição do bug`
+- `📚 Adicionando novos arquivos`
+
+### **Comandos Úteis:**
+```bash
+# Ver histórico de commits
+git log --oneline
+
+# Ver diferenças antes de commitar
+git diff
+
+# Desfazer última mudança (se necessário)
+git restore arquivo.txt
+
+# Ver branch atual
+git branch
+```
+
+Agora você sabe como enviar atualizações! Sempre que fizer mudanças no código, use esses 4 comandos e suas atualizações aparecerão no GitHub. 🚀 
